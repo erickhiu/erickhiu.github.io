@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Super Mario 3CNF Simulation</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; margin: 20px; }
+    .input-section, .simulation-section { margin: 20px; }
+    .dropdown { margin: 5px; }
+    .feedback { margin-top: 20px; font-size: 1.2em; }
+  </style>
+</head>
+<body>
+  <h1>Super Mario 3CNF Simulation</h1>
+
+  <!-- Input Section -->
+  <div class="input-section">
+    <h2>Define 3CNF Formula</h2>
+    <label>Clause 1:</label>
+    <select class="dropdown" id="c1l1">
+      <option value="x1">x1</option>
+      <option value="NOT x1">NOT x1</option>
+      <option value="x2">x2</option>
+      <option value="NOT x2">NOT x2</option>
+      <option value="x3">x3</option>
+      <option value="NOT x3">NOT x3</option>
+    </select> OR
+    <select class="dropdown" id="c1l2">
+      <option value="x1">x1</option>
+      <option value="NOT x1">NOT x1</option>
+      <option value="x2">x2</option>
+      <option value="NOT x2">NOT x2</option>
+      <option value="x3">x3</option>
+      <option value="NOT x3">NOT x3</option>
+    </select> OR
+    <select class="dropdown" id="c1l3">
+      <option value="x1">x1</option>
+      <option value="NOT x1">NOT x1</option>
+      <option value="x2">x2</option>
+      <option value="NOT x2">NOT x2</option>
+      <option value="x3">x3</option>
+      <option value="NOT x3">NOT x3</option>
+    </select>
+    <br>
+    <label>Clause 2:</label>
+    <select class="dropdown" id="c2l1">
+      <option value="x1">x1</option>
+      <option value="NOT x1">NOT x1</option>
+      <option value="x2">x2</option>
+      <option value="NOT x2">NOT x2</option>
+      <option value="x3">x3</option>
+      <option value="NOT x3">NOT x3</option>
+    </select> OR
+    <select class="dropdown" id="c2l2">
+      <option value="x1">x1</option>
+      <option value="NOT x1">NOT x1</option>
+      <option value="x2">x2</option>
+      <option value="NOT x2">NOT x2</option>
+      <option value="x3">x3</option>
+      <option value="NOT x3">NOT x3</option>
+    </select> OR
+    <select class="dropdown" id="c2l3">
+      <option value="x1">x1</option>
+      <option value="NOT x1">NOT x1</option>
+      <option value="x2">x2</option>
+      <option value="NOT x2">NOT x2</option>
+      <option value="x3">x3</option>
+      <option value="NOT x3">NOT x3</option>
+    </select>
+    <br><br>
+    
+    <br><br>
+
+    <h2>Assign Truth Values</h2>
+    <label>x1:</label>
+    <select class="dropdown" id="x1">
+      <option value="true">True</option>
+      <option value="false">False</option>
+    </select>
+    <label>x2:</label>
+    <select class="dropdown" id="x2">
+      <option value="true">True</option>
+      <option value="false">False</option>
+    </select>
+    <label>x3:</label>
+    <select class="dropdown" id="x3">
+      <option value="true">True</option>
+      <option value="false">False</option>
+    </select>
+    <br><br>
+
+    <button onclick="startSimulation()">Start Simulation</button>
+  </div>
+
+  <!-- Simulation Output -->
+  <div class="simulation-section">
+    <h2>Simulation Output</h2>
+    <div id="output"></div>
+  </div>
+
+  <script src="mario.js"></script>
+</body>
+</html>

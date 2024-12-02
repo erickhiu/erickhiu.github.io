@@ -177,7 +177,7 @@
         "details": "Developed an Instagram-like app using React and Flask, with dynamic post display, likes, and comments via RESTful APIs. Implemented real-time interactions like infinite scrolling, double-click likes, and comment updates for a seamless user experience."
       },
       {
-        "title": "Map Reduce",
+        "title": "MapReduce",
         "pub_id": 17,
         "link": "https://eecs485staff.github.io/p4-mapreduce/",
         "thumbnail": "static/projects/mapreduce-thumbnail.webp",
@@ -210,9 +210,9 @@
         "details": "Developed a system to analyze Estonian inflectional forms using string differences and meta-patterns. The project focused on processing lexical data, creating dictionaries for case forms, and analyzing string differences to identify patterns in word forms. It also examined the impact of superheavy syllables on inflection and explored robust patterns in the Estonian language, applying computational linguistics techniques to predict inflectional behavior."
       },
       {
-        "title": "Ask485 Seach Engine",
+        "title": "ASK485 Seach Engine",
         "pub_id": 20,
-        "link": "",
+        "link": "https://eecs485staff.github.io/p5-search-engine/",
         "thumbnail": "static/projects/ask485-thumbnail.png",
         "keywords": ["Information Retrieval", "MapReduce", "PageRank"],
         "date": "Nov 2024",

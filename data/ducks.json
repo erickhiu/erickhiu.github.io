@@ -41,7 +41,7 @@
             "name-reference": ""
         },
         {
-            "name": "Drownie-Petes",
+            "name": "Drownie Petes",
             "duck_id": 6,
             "aka": [],
             "pfp": "static/images/ducks/Drownie-Petes.jpg",
@@ -145,12 +145,12 @@
             "name-reference": "Purple + Duck"
         },
         {
-            "name": "Witte-Eend",
+            "name": "Witteend",
             "duck_id": 18,
             "aka": [],
             "pfp": "static/images/ducks/Witte-Eend.jpg",
             "story": "From Amsterdam Airport Schiphol when I had 10 hours layover.",
-            "name-reference": ""
+            "name-reference": "'White duck' in Dutch."
         },
         {
             "name": "Muck",

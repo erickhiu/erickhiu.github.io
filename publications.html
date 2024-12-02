@@ -235,16 +235,6 @@
 
       // Function to truncate the abstract and add a full version
       function getAbstract(abstract) {
-        const maxLength = 350;
-
-        if (abstract.length > maxLength) {
-          return `
-            <p class="abstract-text">${abstract.substring(0, maxLength)}...</p>
-            <div class="full-abstract" style="display: none;">
-                <p>${abstract}</p>
-            </div>
-        `;
-        }
         return `<p class="abstract-text">${abstract}</p>`;
       }
 

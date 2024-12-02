@@ -217,7 +217,7 @@
         "keywords": ["Information Retrieval", "MapReduce", "PageRank"],
         "date": "Nov 2024",
         "languages": ["Python", "HTML"],
-        "tags": ["WebDev", "NLP"],
+        "tags": ["WebDev", "NLP", "DB"],
         "details": "Designed and implemented a scalable search engine inspired by Google/Bing. Key components include a pipeline of MapReduce programs to construct an inverted index with term frequency-inverse document frequency (tf-idf) and PageRank computations, a RESTful API server for search results in JSON, and a user-friendly search interface with Flask for querying and displaying ranked results. Leveraged distributed data processing and concurrent threading to enhance scalability and performance."
       }
     ]

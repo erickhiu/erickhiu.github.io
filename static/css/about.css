@@ -4,6 +4,7 @@
     flex-direction: row;
     align-items: flex-start;
     gap: 1rem;
+    width: 100%; /* Ensure it adapts to screen size */
     max-width: 1200px; /* Limit overall width for better readability */
     margin: 2rem auto;
     padding: 0 1.5rem; /* Add horizontal padding */
@@ -172,12 +173,13 @@
 @media (max-width: 768px) {
     .two-column-layout {
         flex-direction: column; /* Stack columns vertically */
-        gap: 2rem; /* Add spacing between stacked sections */
+        gap: 1rem; /* Add spacing between stacked sections */
     }
 
     .main-wrapper,
     .side-wrapper {
         padding: 0 1rem;
+        margin: 0 auto;
         flex: none; /* Allow full width */
     }
 

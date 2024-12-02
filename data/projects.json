@@ -208,6 +208,17 @@
         "languages": ["Python"],
         "tags": ["NLP", "CompLing"],
         "details": "Developed a system to analyze Estonian inflectional forms using string differences and meta-patterns. The project focused on processing lexical data, creating dictionaries for case forms, and analyzing string differences to identify patterns in word forms. It also examined the impact of superheavy syllables on inflection and explored robust patterns in the Estonian language, applying computational linguistics techniques to predict inflectional behavior."
+      },
+      {
+        "title": "Ask485 Seach Engine",
+        "pub_id": 20,
+        "link": "",
+        "thumbnail": "static/projects/ask485-thumbnail.png",
+        "keywords": ["Information Retrieval", "MapReduce", "PageRank"],
+        "date": "Nov 2024",
+        "languages": ["Python", "HTML"],
+        "tags": ["WebDev", "NLP"],
+        "details": "Designed and implemented a scalable search engine inspired by Google/Bing. Key components include a pipeline of MapReduce programs to construct an inverted index with term frequency-inverse document frequency (tf-idf) and PageRank computations, a RESTful API server for search results in JSON, and a user-friendly search interface with Flask for querying and displaying ranked results. Leveraged distributed data processing and concurrent threading to enhance scalability and performance."
       }
     ]
   }

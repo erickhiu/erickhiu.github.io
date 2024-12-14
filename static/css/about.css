@@ -164,56 +164,34 @@
     color: #555;
 }
 
-/* Responsive Layout Adjustments */
 @media (max-width: 768px) {
     .two-column-layout {
-        flex-direction: column; /* Stack columns vertically */
+        flex-direction: column; /* Stack the columns vertically */
+        width: 100%; /* Ensure it spans the full width */
         gap: 1rem; /* Add spacing between stacked sections */
     }
 
     .main-wrapper,
     .side-wrapper {
-        padding: 0 1rem;
-        margin: 0 auto;
-        flex: none; /* Allow full width */
+        width: 100%; /* Each section spans the full width */
+        margin: 0 auto; /* Center the content vertically */
+        padding: 0 1rem; /* Add horizontal padding */
+    }
+
+    .section-shadow {
+        width: 100%; /* Ensure sections span full width */
+        max-width: none; /* Remove any restriction on max-width */
+        box-sizing: border-box; /* Include padding in width */
     }
 
     .profile-picture {
+        margin: 0 auto; /* Center the profile picture */
         width: 120px; /* Adjust size for smaller screens */
         height: 120px;
-        margin: 0 auto; /* Center the image */
-    }
-
-    .skills-category {
-        margin-bottom: 1rem;
     }
 
     .skills-category h3 {
-        font-size: 1rem; /* Smaller heading size */
-    }
-
-    .skills-category ul {
-        padding-left: 15px; /* Reduce indentation */
-    }
-
-    .icon-container {
-        justify-content: center; /* Center align icons */
-    }
-}
-
-/* Extra Small Screens */
-@media (max-width: 480px) {
-    .profile-picture {
-        width: 100px;
-        height: 100px;
-    }
-
-    .skills-category h3 {
-        font-size: 0.9rem; /* Further reduce heading size */
-    }
-
-    .icon-container {
-        gap: 0.5rem; /* Adjust icon spacing */
+        font-size: 1rem; /* Adjust font size */
     }
 
     .experience-item {
@@ -224,18 +202,15 @@
     .experience-item img.experience-logo {
         width: 40px;
         height: 40px;
-    }
-
-    .experience-item h3 {
-        font-size: 1rem; /* Adjust font size */
+        margin-bottom: 0.5rem; /* Add spacing below the logo */
     }
 
     .role-and-dates {
-        flex-direction: column; /* Stack role and dates */
+        flex-direction: column; /* Stack role and date vertically */
         align-items: flex-start;
     }
 
     .role-and-dates p {
-        text-align: left; /* Align text left */
+        text-align: left; /* Align text to the left */
     }
 }

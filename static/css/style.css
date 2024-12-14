@@ -186,7 +186,8 @@ button + button {
     }
 
     section {
-        padding: 1rem 0.5rem; /* Adjust section padding */
+        padding: 1rem; /* Reduce padding for smaller screens */
+        width: 100%; /* Ensure sections take full width */
     }
 
     .section-page {

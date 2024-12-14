@@ -143,6 +143,11 @@
       <img src="${publication.thumbnail}" alt="${publication.pub_id}-Thumbnail">
     </div>
     ${
+      publication.afp
+        ? `<p><strong>Accepted for presentation:</strong> <a href="${publication.afp_link}">${publication.afp}</a></p>`
+        : ""
+    }
+    ${
       publication.venue
         ? `<p><strong>Presented in:</strong> <a href="${publication.venue_link}">${publication.venue}</a></p>`
         : ""

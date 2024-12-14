@@ -74,6 +74,8 @@
         "thumbnail": "static/publications/coling25/urielp-thumbnail.svg",
         "date": "Sept 2024",
         "authors": ["Aditya Khan", "Mason Shipton", "David Anugraha", "Kaiyao Duan", "Phuong H. Hoang", "Eric Khiu", "A. Seza Doğruöz", "En-Shiun Annie Lee"],
+        "afp": "The 31st International Conference on Computational Linguistics",
+        "afp_link": "https://coling2025.org/",
         "venue": "",
         "venue_link": "",
         "journal": "",

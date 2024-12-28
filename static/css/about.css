@@ -128,7 +128,7 @@
 }
 
 .experience-item p {
-    margin: 0.2rem 0;
+    margin: 0.1rem 0;
     color: #555;
 }
 
@@ -148,14 +148,14 @@
 .role-and-dates {
     display: flex;
     justify-content: space-between;
-    align-items: baseline; /* Align text vertically at the baseline */
-    margin-top: 0.5rem; /* Optional: Add spacing above */
+    align-items: center; /* Align both items vertically to the center */
+    flex-wrap: nowrap; /* Prevent wrapping */
 }
 
 .role-and-dates p {
     margin: 0;
-    font-size: 1rem; /* Adjust text size if needed */
-    color: #333; /* Match other text styles */
+    white-space: nowrap; /* Prevent text wrapping */
+    flex-shrink: 1; /* Allow text to shrink if necessary */
 }
 
 .role-and-dates .date-align {

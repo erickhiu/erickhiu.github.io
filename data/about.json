@@ -33,16 +33,17 @@
     },
     "education": [
         {
-            "institution": "University of Michigan, Ann Arbor",
+            "institution": "University of Michigan, Ann Arbor, United States",
             "start_date": "Aug 2021",
             "end_date": "Present",
             "degree": "B.S. Computer Science, Data Science, and Mathematics",
             "gpa": "3.86",
             "logo": "umich-logo.png",
             "description": "Specializing in theoretical computer science and machine learning.",
-            "details": ["Awards: James B. Angell Scholar, University Honors",
-                        "CS & DS Focus: Machine Learning and Natural Language Processing",
-                        "Math Focus: Financial Mathematics and Risk Management"]
+            "details": ["James B. Angell Scholar Award and University Honors recipient.",
+                        "Specialized in machine learning and natural language processing.",
+                        "Focused coursework in financial mathematics and risk management.",
+                        "Minor in linguistics."]
         },
         {
             "institution": "Taylor's University, Malaysia",
@@ -51,8 +52,8 @@
             "degree": "American Degree Program - Computer Science",
             "gpa": "4.00",
             "logo": "taylors-logo.jpeg",
-            "details":["Student representative for computer science students in the ADP program.",
-                        "Concecutive Dean's List Award recipient."]
+            "details":["Concecutive Dean's List Award recipient.",
+                        "Student representative for computer science students in the ADP program."]
         }
     ],
     "work_experience": [

@@ -48,23 +48,17 @@
     white-space: normal; /* Allow text to wrap to the next line */
 }
 
-
 @media (max-width: 768px) {
+    .square-grid {
+        gap: 1.5rem;
+        justify-content: center;
+    }
     .square-card {
-        width: 150px; /* Adjust size for smaller screens */
+        flex: 1 1 calc(75% - 2rem);
+        max-width: 250px;
     }
     .square-card h2 {
-        font-size: 1rem; /* Reduce font size for headings */
-    }   
-}
-
-@media (max-width: 480px) {
-    .square-card {
-        width: 100%; /* Full width on very small screens */
-        max-width: 150px; /* Limit width on mobile */
-    }
-    .square-card h2 {
-        font-size: 0.9rem; /* Further reduce font size on very small screens */
+        font-size: 1.5rem;
     }
 }
 

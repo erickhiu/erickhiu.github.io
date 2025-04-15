@@ -219,6 +219,17 @@
         "languages": ["Python", "HTML"],
         "tags": ["WebDev", "NLP", "DB"],
         "details": "Designed and implemented a scalable search engine inspired by Google/Bing. Key components include a pipeline of MapReduce programs to construct an inverted index with term frequency-inverse document frequency (tf-idf) and PageRank computations, a RESTful API server for search results in JSON, and a user-friendly search interface with Flask for querying and displaying ranked results. Leveraged distributed data processing and concurrent threading to enhance scalability and performance."
+      },
+      {
+        "title": "Triptimize",
+        "pub_id": 21,
+        "link": "https://github.com/erickhiu/triptimize",
+        "thumbnail": "static/projects/triptimize-thumbnail.png",
+        "keywords": ["Itinerary Optimization", "LLM Integration", "Google Maps API", "Amadeus API"],
+        "date": "Jan 2025 - April 2025",
+        "languages": ["Python", "HTML", "JavaScript"],
+        "tags": ["WebDev", "NLP", "DB"],
+        "details": "Developed a full-stack web app for itinerary planning, recommending time/budget-optimized flights, stays, and activities. Utilized LLM for preference parsing and implemented route optimization for efficient travel itineraries."
       }
     ]
   }

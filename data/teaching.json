@@ -34,7 +34,8 @@
                 "name": "EECS 376: Foundations of Computer Science",
                 "link": "https://eecs376.org/"
             },
-            "details": "Facilitate weekly discussion sections and hold office hours. Course topics: Algorithm design, computability (finite automata, Turing Machines, Turing reductions), complexity theory (P & NP, NP-hard, NP-Completeness, heuristics), cryptography (Diffie-Hellman, RSA)."
+            "contribution": "https://erickhiu.github.io/eecs376-disc/",
+            "details": "Designed classroom activities, facilitated weekly discussion sections, and held office hours. Course topics: Algorithm design, computability (finite automata, Turing Machines, Turing reductions), complexity theory (P & NP, NP-hard, NP-Completeness, heuristics), cryptography (Diffie-Hellman, RSA)."
         }
     ]
 }

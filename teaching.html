@@ -66,6 +66,8 @@
                             <p class="date-align">${item.start_date} - ${item.end_date}</p>
                         </div>
                         ${item.course?.link ? `<p class="course"><a href="${item.course.link}" target="_blank">${item.course.name}</a></p>` : ''}
+                        ${item.contribution ? `<p>See my contributions <a href="${item.contribution}" target="_blank">here</a>.</p>` : ''}
+                        <br>
                         <p>${item.details}</p>
                     </div>
                 `;
